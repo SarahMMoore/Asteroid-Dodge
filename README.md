@@ -1,6 +1,6 @@
-# Space Dodger
+# Asteroid Dodge
 
-! <img width="531" height="555" alt="game" src="https://github.com/user-attachments/assets/f21e4dae-70ca-4683-9664-d5b27f83ec80" />
+<img width="531" height="555" alt="game" src="https://github.com/user-attachments/assets/f21e4dae-70ca-4683-9664-d5b27f83ec80" />
 
 A 2D arcade-style space survival game built with vanilla JavaScript, HTML5 `<canvas>`, and CSS3. Created as an extra credit project for **GIT 418: Multimedia Authoring, Scripting and Production**.
 
