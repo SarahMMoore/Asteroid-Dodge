@@ -8,7 +8,7 @@ var myScore;
 function startGame() {
     myGamePiece = new component(40, 33, "no-fuel.gif", 10, 120, "image");
     myBackground = new component(500, 300, "space.jpg", 0, 0, "background");
-    myScore = new component("24px", "Garamond", "lime", 280, 40, "text");
+    myScore = new component("24px", "Arial", "lime", 280, 40, "text");
     myGameArea.start();
 }
 
