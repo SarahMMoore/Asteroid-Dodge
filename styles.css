@@ -1,0 +1,48 @@
+canvas {
+	display: block;
+	border: 10px solid #0c1c2f;
+	background-color: #f1f1f1;
+	margin: 0 auto;
+	width: 500px;
+	height: 300px;
+}
+
+.controls {
+	width: 500px;
+	margin: 5px auto;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	border: 10px solid #f04f63;
+		background-color: #b33278;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr;
+}
+
+button {
+	width: 100px;
+	height: 50px;
+	font-size: 16px;
+	text-align: center;
+	justify-self: center;
+}
+
+button#up {
+	grid-column: 2;
+	grid-row: 1;
+}
+
+button#left {
+	grid-column: 1;
+	grid-row: 2;
+}
+
+button#right {
+	grid-column: 3;
+	grid-row: 2;
+}
+
+button#down {
+	grid-column: 2;
+	grid-row: 3;
+}

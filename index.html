@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="author" content="Sarah Moore">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<link rel="stylesheet" href="styles.css">
+	<script src="script.js"></script>
+</head>
+
+<body onload="startGame()">
+	<div class="controls">
+		<button id="up" onmousedown="move('up')" onmouseup="clearmove()" ontouchstart="move('up')" ontouchend="clearmove()">UP</button>
+		<button id="left" onmousedown="move('left')" onmouseup="clearmove()" ontouchstart="move('left')" ontouchend="clearmove()">LEFT</button>
+		<button id="right" onmousedown="move('right')" onmouseup="clearmove()" ontouchstart="move('right')" ontouchend="clearmove()">RIGHT</button>
+		<button id="down" onmousedown="move('down')" onmouseup="clearmove()" ontouchstart="move('down')" ontouchend="clearmove()">DOWN</button>
+	</div>
+</body>
+
+</html>
